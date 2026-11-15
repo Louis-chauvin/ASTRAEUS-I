@@ -22,9 +22,9 @@ ASTRAEUS is a student project to design, build and fly a complete amateur rocket
 2. **ASTRAEUS I**: a 1-metre, 54 mm rocket designed around the board, simulated and checked in OpenRocket.
 3. **KNSB-38**: our own 38 mm sugar-propellant solid motor, designed in openMotor, with a static test stand.
 
-Everything here (schematics, PCB layout, firmware, rocket design, cutting files) is open, so other students can learn from it, reuse it, or build their own.
+Everything here (schematics, PCB layout, firmware, rocket design, cutting files) is open, so that YOU can learn from it, reuse it, or build your own.
 
-> **Status (November 2026):** Rev A boards are being manufactured and assembled by JLCPCB. The breadboard prototype works and the bring-up firmware is written. ASTRAEUS I is fully designed, and the motor is in testing. No flight yet: this README will be updated with real flight data.
+> **Status (November 2026):** Rev A boards are going to be manufactured and assembled by JLCPCB (If we get funding). The breadboard prototype works and the bring-up firmware is written. ASTRAEUS I is fully designed, and the motor is in testing. No flight yet; this README will be updated with real flight data.
 
 ---
 
@@ -46,7 +46,7 @@ Everything here (schematics, PCB layout, firmware, rocket design, cutting files)
 
 <img src="images/board_top.png" width="190" align="right" alt="ASTRAEUS top side">
 
-The goal was a board that is **small, rugged and professional**: every chip soldered directly to one PCB, with no stacked modules or breakout boards to shake loose. The white-and-gold look is inspired by Joe Barnard's (BPS.space) AVA board.
+The goal was a board that is **small, rugged and professional**; every chip soldered directly to one PCB, with no stacked modules or breakout boards to shake loose. The white-and-gold look is inspired by Joe Barnard's (BPS.space) AVA and Signal R2 board which we found quite cool.
 
 ### Specifications
 
@@ -102,9 +102,7 @@ Board facts:
 
 ---
 
-## The rocket: ASTRAEUS I
-
-![ASTRAEUS I profile](images/rocket_profile.png)
+## The rocket; ASTRAEUS I
 
 A 54 mm (LOC Precision 2.14") rocket for a 38 mm motor. It flies ASTRAEUS in an electronics bay at its middle, with a single parachute deployed electronically at apogee. Its parts come from standard suppliers (LOC Precision, Fruity Chutes, Aero Pack). The fins and thrust rings are laser-cut from birch plywood, and the electronics sled is 3D-printed.
 
@@ -140,7 +138,7 @@ A 54 mm (LOC Precision 2.14") rocket for a 38 mm motor. It flies ASTRAEUS in an 
 
 ---
 
-## The motor: KNSB-38
+## The motor; KNSB-38
 
 A 38 mm solid motor using KNSB (potassium nitrate and sorbitol "sugar" propellant) in four BATES grains. It sits on the H/I-class boundary, at roughly 300–330 N·s total impulse over about 1.2 s. The aluminium casing and steel nozzle were designed in CAD, and the internal ballistics were simulated in openMotor. A vertical static test stand with a load cell is used to measure the real thrust curve before any flight.
 
@@ -225,7 +223,7 @@ Open [`rocket/ASTRAEUS_I.ork`](rocket/ASTRAEUS_I.ork) in OpenRocket 24.12 or lat
 
 ## How it was made
 
-Design tools: KiCad 7 for the schematic and PCB (autorouted with Freerouting, checked with KiCad DRC), OpenRocket for the rocket, openMotor for the motor, Arduino and ESP-IDF for the firmware. AI assistance (Claude) was used during design, simulation and documentation; every design decision was reviewed, and the hardware is built and tested by us.
+Design tools; KiCad 7 for the schematic and PCB (autorouted with Freerouting, checked with KiCad DRC), OpenRocket for the rocket, openMotor for the motor, Arduino and ESP-IDF for the firmware. AI assistance (Claude) was used during design, simulation and documentation; every design decision was reviewed, and the hardware is built and tested by us.
 
 ---
 
