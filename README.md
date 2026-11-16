@@ -221,12 +221,6 @@ Open [`rocket/ASTRAEUS_I.ork`](rocket/ASTRAEUS_I.ork) in OpenRocket 24.12 or lat
 
 ---
 
-## How it was made
-
-Design tools; KiCad 7 for the schematic and PCB (autorouted with Freerouting, checked with KiCad DRC), OpenRocket for the rocket, openMotor for the motor, Arduino and ESP-IDF for the firmware. AI assistance (Claude) was used during design, simulation and documentation; every design decision was reviewed, and the hardware is built and tested by us.
-
----
-
 ## License
 
 - **Hardware** (KiCad files, fabrication files, rocket design): [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt)
